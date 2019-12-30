@@ -1,0 +1,24 @@
+.navbar {
+    background: rgb(195,36,90,0.8743872549019608);
+    /* background: rgba(255, 255, 255, 0.5); */
+}
+
+.background-jumb {
+    background-image: url( ../../images/pattren1.png );
+    background-size:10%;
+    position: relative;
+}
+
+.jumbotron.card-image {
+    position: relative;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,0.7175245098039216) 0%, rgba(195,36,90,0.8743872549019608) 0%, rgba(195,36,90,1) 90%);
+}
+
+body {
+    height: 1000px;
+}
+
+img.grayscale {
+    filter: grayscale();
+}
